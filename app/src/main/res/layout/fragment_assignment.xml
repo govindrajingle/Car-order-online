@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/tesla">
+    <ImageView
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/model3"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="220dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.1 s"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="237dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0-60 mph"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="260dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="358 mi"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="277dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Range(EPA est.)"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="305dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AWD"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="330dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dual Motor"/>
+
+    <TextView
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#FA2003"
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="7"
+        android:text="Safety is the most important part of every Tesla.
+         We design our vehicles to exceed safety standards.Model 3 achieved
+         NHTSA 5-star safety ratings in every category and subcategory.Model
+          3 received the IIHS Top Safety Pick+ award, with top ratings in all
+          crash worthiness and front crash prevention categories."
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/model3button"
+        android:layout_marginLeft="115dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="ORDER NOW for $20000"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_marginTop="535dp"/>
+
+</FrameLayout>

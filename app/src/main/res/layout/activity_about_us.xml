@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/tesla"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Now"
+        android:gravity="center"/>
+    <!--EditText for adding employee name-->
+    <EditText
+        android:textColorHint="@color/white"
+        android:id="@+id/idEdtEmployeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Customer Name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+    <EditText
+        android:textColorHint="@color/white"
+        android:id="@+id/idEdtEmployeeEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/idEdtEmployeeName"
+        android:hint="Enter Customer Mail ID"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+    <!--EditText for adding employee phone-->
+    <EditText
+        android:textColorHint="@color/white"
+        android:id="@+id/idEdtEmployeePhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtEmployeeEmail"
+        android:layout_margin="10dp"
+        android:hint="Enter employee phone number"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:id="@+id/idEdtEmployeeCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtEmployeePhoneNumber"
+        android:layout_margin="10dp"
+        android:hint="Enter employee Country"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:id="@+id/idEdtEmployeeState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtEmployeeCountry"
+        android:layout_margin="10dp"
+        android:hint="Enter employee State"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:id="@+id/idEdtEmployeeCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtEmployeeState"
+        android:layout_margin="10dp"
+        android:hint="Enter employee City"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+    <!--EditText for adding employee address-->
+
+    <!--Button for adding data to Firebase-->
+    <Button
+        android:id="@+id/idBtnSendData"
+        android:layout_marginLeft="165dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Buy Now"
+        android:layout_below="@id/idEdtEmployeeCity"
+        style="?attr/materialButtonOutlinedStyle" />
+
+</RelativeLayout>
